@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoGoBooking.WebApp", "GoGoBooking.WebApp\GoGoBooking.WebApp.csproj", "{3312B2ED-1547-442D-BD62-B4F4EAAD0AEB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Websites", "Websites", "{F3D87F81-6B3E-4D98-8A38-32C3FDBA27CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{AFDCBF51-759D-4A4D-A3DE-5E65FD7B2A47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +22,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3312B2ED-1547-442D-BD62-B4F4EAAD0AEB} = {F3D87F81-6B3E-4D98-8A38-32C3FDBA27CA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {864F66B2-FF78-4DB1-AAE0-F6346C563030}
